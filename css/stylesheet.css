@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root {
+--dark-blue: #19456b;
+--light-blue: #11698e;
+--grey-color: #f4f4f4;
+--white:white;
+
+}
+*{
+     box-sizing: border-box; margin: 0; padding: 0;
+    font-family:'Ubuntu', sans-serif;
+ 
+}
+li{
+  list-style: none;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+a,p{
+  color: white!important;
+}
+.nav1{
+  font-family: 'Ubuntu', sans-serif;
+  color: #e7d9ea!important;
+  background: var(--dark-blue);
+  height: auto;
+}
+.nav2{
+  color: #ffffff;
+  background: var(--light-blue);
+  /*height: 70px;*/
+ font-family: 'Ubuntu', sans-serif;
+}
+.navbar-nav li a{
+  padding-left: 10px!important;
+}
+.navbar-nav li a:hover{
+  background: var(--light-blue);
+}
+.nav2-container{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+/*padding: 10px;*/
+
+}
+.nav2-list {
+  list-style:none;
+  color: #fff;
+   display: flex;
+  align-items: center;
+    margin-top: 4px;
+  justify-content: center;
+}
+
+.nav2-section-2 {
+  width: 95%;
+
+}
+/*.nav2-section-1 {
+  padding-bottom: 20px;
+}*/
+.nav2-list li a{
+  text-transform: capitalize;
+  font-size: 12px;
+    margin-left: 16px; 
+ text-decoration: none;
+  color: white;
+}
+/*.nav2-list a{
+ 
+  }
+*//*Carsoul */
+.carousel-indicators{
+  position: absolute;
+  right: 0;
+  bottom: -60px!important;
+}
+.carousel-indicators li{
+  
+  background-color:  #19456b!important;
+}
+
+/* Section-2-content css start ===*/
+.section-2{
+  margin-top: 50px;
+  border-top: 10px solid #19456b;
+}
+.section-2-content img{
+    width:200px;
+    height:200px; 
+    border:2px solid  #11698e;
+   margin-top: 40px;
+
+  
+}
+.section-2-content  {
+  text-align: center;
+}
+/* section-2-content css end */
+/*about section */
+.about-section {
+ background: var(--dark-blue);
+ font-family: 'Ubuntu', sans-serif;
+ color:white; 
+}
+.about-section p{
+  text-align: justify;
+}
+.about-section h2{
+  padding: 10px 0;
+
+}
+/* course tracks */
+
+.course-section{
+  background: var(--light-blue);
+  color: white;
+  /*padding-bottom: 50px;*/
+  padding: 10px 5px 50px 5px;
+}
+.course-section h1, p{
+  text-align: center;
+}
+.card-header-content{
+   
+    -webkit-box-shadow: 1px 17px 22px 27px rgba(25,69,107,0.98); 
+    box-shadow: 1px 17px 22px 27px rgba(25,69,107,0.98);
+    background: #19456b!important;
+    
+}
+.card-body-content{
+  background: #11698e!important;
+  -webkit-box-shadow: 1px 29px 34px 27px #19456b; 
+   box-shadow: 1px 29px 34px 27px #19456b;
+}
+.card-body ul{
+  list-style: none;
+}
+/*Candidate portal section start  */
+.candidate-portal-course{
+   background-color: #11698e!important;
+   color: white;
+   font-family: 'Ubuntu', sans-serif;
+   padding: 20px 20px;
+   margin-bottom: 5px;
+   font-weight: 700px;
+   /*transition-property: background-color 1s ease-in-ease-out 2s; its not working */
+
+}
+.candidate-portal-section-text {
+ text-align: center!important;
+ margin: 10px 0px;
+  
+}
+.inner-portal-1{
+  padding-right:10px;
+
+}
+.candidate-portal-course li{
+  list-style: none;
+}
+.candidate-portal-course:hover{
+   background-color:white!important; 
+   color:  #11698e!important;
+   font-family: 'Ubuntu', sans-serif;
+   padding: 20px 20px;
+   margin-bottom: 5px;
+   border: 2px solid  #11698e;
+   font-weight: 700px;
+   
+}
+.candidate-portal-icons{
+  background: #19456b!important;
+  border-radius: 50%;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 80px;
+}
+.candidate-portal-icons:hover{
+  background: white!important;
+  border-radius: 50%;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 80px;
+  border:2px solid #11698e!important;
+}
+/* Login button */
+/*.login-section{
+  border-bottom: 10px solid var(--light-blue)!important;
+  padding-bottom: 10px;
+}*/.btn-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+     
+}
+.btn-login{
+  background-color: var(--dark-blue)!important;
+  color: #ffffff!important;
+  text-transform: capitalize;
+  padding: 5px 30px!important;
+}
+
+
+
+/* News Container Card start */
+/* News Container Card start */
+.news-container-section{
+    background-color: var(--dark-blue)!important;
+
+  }  
+.news-container-div{
+  margin: 30px 0;
+  padding: 20px 0;
+  
+ 
+}
+.news-card{
+     padding: 10px 0;
+     background-color: var(--light-blue)!important;
+     color: white;
+}
+.card-top-padding{
+  padding-top: 30px;
+}
+.news-card img{
+
+  height: 200px;
+   object-fit: cover;
+    padding: 20px;
+    margin-top: 20px;
+}
+.news-card:hover img{
+-webkit-box-shadow: 1px 1px 11px 12px rgba(25,69,107,0.87); 
+box-shadow: 1px 1px 11px 12px rgba(25,69,107,0.87);
+
+}
+.card-btn{
+  background-color: var(--dark-blue)!important;
+  color: white!important;
+}
+.news-card:hover a{
+  background-color: white!important;
+  color: var(--dark-blue)!important;
+}
+/*News Container Card End */
+/*News Container end*/
+.map{
+  margin: 20px;
+}
+/* career section css start*/
+.container2{
+  margin: 20px 0px;
+  background-image: url(../img/fixpic.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  color: white!important;
+  
+}
+
+.fixed-pic-div{
+  color: white!important;
+  background-color: var(--dark-blue);
+  opacity: .8;
+  margin: 20px;
+}
+.fixed-pic-div li, h2{
+  color: white!important;
+  list-style: none;;
+}
+/*career secttion end */
+.footer-section{
+  padding: 20px;
+  background-color: var(--light-blue);
+  color: white !important;
+
+}
+.footer-section h2,{
+  text-align: center;
+}
+.footer-section p{
+  text-align: justify;
+}
+.footer-section i{
+ 
+  margin: 10px;
+}
+.footer-2{
+  background-color: var(--dark-blue);
+
+}
+.career-btn{
+  background-color: transparent!important;
+  border: 2px solid white!important;
+  color: white!important;
+  text-transform: uppercase;
+  margin: 20px;
+
+}
+.career-btn:hover{
+  
+  background-color: white!important;
+ border-radius: 50% solid black!important;
+  color: black!important;
+  text-transform: uppercase;
+  margin: 20px;
+}
+#myBtn{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  border: none;
+  color: #fff;
+  background: var(--dark-blue); 
+  padding: 10px;
+  border-radius: 20px;
+}
+@media (max-width: 976px){
+  .nav2-list li a{
+  display: none;
+}
+}
+@media(max-width: 999px){
+  .nav2-list li{
+  list-style:none;
+  color: #fff;
+  align-items: center;
+   margin-top: 4px;
+  font-size: 10px;
+  padding-right: 15px;
+}
+}
+
+@media screen(max-width: 843px){
+  .nav2-list li{
+  list-style:none;
+  color: #fff;
+  align-items: center;
+   margin-top: 4px;
+  font-size: 11px;
+  padding-right: 12px;
+
+}
+}
+@media screen(max-width: 777px){
+  *{
+   box-sizing: border-box;
+   padding: 0!important;
+   margin: 0!important;
+  }
+  
+  .about-section{
+    margin: 30px auto !important;
+  }
+  .candidate-portal-section,.map,.news-container-section,.container2{
+    margin: 40px auto!important;
+  }
+  .container2 .container{
+    margin: 10px auto!important;
+    padding: 10px!important;
+  }
+  /*course track section start*/
+  .course-section .card-group{
+    
+    margin-left: 40px!important;
+        /*margin-right: 5px;*/
+  }
+  .course-section .card-group .card .card-header,.card-body-content{
+    padding: 10px!important;
+  }
+
+  /*course track section end*/
+  .footer-section{
+    padding: 20px!important;
+  }
+.news-container-div .row{
+  display: grid;
+  grid-template-rows: repeat(3,1fr)!important;
+  grid-row-gap: 30px!important;
+ justify-content: center;
+ padding: 10px 0 10px 0!important;
+ text-align: center;
+
+}
+.news-card{
+  padding: 5px!important;
+}
+.news-card .card-btn{
+  padding: 10px!important;
+}
+.news-container {
+  padding-top: 2px!important;
+}
+.course-section{
+  padding-top: 20px!important;
+  padding-bottom: 20px!important;
+}
+
+/*About section start */
+.about-section{
+  padding: 20px!important;
+}
+/*Candidateportal section start*/
+.candidate-portal-section{
+  padding: 20px!important;
+  margin-bottom: 10px!important;
+}
+.inner-portal .row{
+  margin-bottom: 10px!important;
+}
+.candidate-portal-course{
+  padding: 10px!important;
+}
+.candidate-portal-icons{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+
+
+
+/*@media screen(min-width: 700px){
+  .nav2-list li a{
+  text-transform: capitalize;
+  font-size: 12px;
+    margin-left: 14px; 
+ text-decoration: none;
+  color: red!important;
+}
+}
+*/
